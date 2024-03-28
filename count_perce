@@ -1,0 +1,11 @@
+count1 = 10
+count2 = 59
+
+# Calculate the percentage difference
+percentage_diff = abs(count1 - count2) / max(count1, count2) * 100
+
+# Check if the percentage difference is more than 60%
+if percentage_diff > 60:
+    print("more diff")
+else:
+    print("less diff")
